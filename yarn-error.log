@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\kjw79\.yarn\releases\yarn-1.22.17.cjs add -D typescript ts-node @types/node~
+
+PATH: 
+  C:\Users\kjw79\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\kjw79\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Dart\dart-sdk\bin;C:\Flutter\flutter_windows_2.0.0-stable\flutter\bin;C:\Program Files\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin;C:\Kotlin\kotlinc\bin;C:\Users\kjw79\Downloads\openssl-1.0.2u-x64_86-win64;C:\Program Files (x86)\Yarn\bin;C:\Users\kjw79\Downloads\Code\Go;C:\Users\kjw79\Downloads\Code\Go\bin;C:\Go\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\nodejs;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Users\kjw79\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\bin;C:\Users\kjw79\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kjw79\.dotnet\tools;C:\Users\kjw79\AppData\Local\Microsoft\WindowsApps;C:\Users\kjw79\AppData\Local\Yarn\bin;C:\Users\kjw79\go\bin;C:\Users\kjw79\.dotnet\tools;C:\Users\kjw79\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@types%2fnode~: Not found
+      at Request.params.callback [as _callback] (C:\Users\kjw79\.yarn\releases\yarn-1.22.17.cjs:78557:18)
+      at Request.self.callback (C:\Users\kjw79\.yarn\releases\yarn-1.22.17.cjs:135288:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (C:\Users\kjw79\.yarn\releases\yarn-1.22.17.cjs:136260:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (C:\Users\kjw79\.yarn\releases\yarn-1.22.17.cjs:136182:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "demo",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
